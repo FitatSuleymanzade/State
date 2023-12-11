@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  background-color: transparent;
+  position: fixed;
+  z-index: 1;
+  text-align: center;
+  color: white;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .navbar .listdiv {
+  margin-right: 30px;
+}
+header .container .navbar .listdiv a {
+  color: white;
+}
+header .container .numberdiv {
+  background-color: #FD784F;
+  padding-top: 8px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+header .container .numberdiv p {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .number {
+    display: none;
+  }
+}
+#find {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  background-image: url(/assets/img/home_slider_bcg.jpg);
+  max-width: 100%;
+  background-size: cover;
+}
+#find .container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#find .container .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#find .container .row .findDiv {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#find .container .row .findDiv h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 100px;
+  color: white;
+  font-weight: 600;
+}
+
+#featured {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#featured .row {
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#featured .row .apiDiv h3 {
+  text-align: center;
+  padding-top: 20px;
+  color: #0E1D41;
+  font-weight: 700;
+}
+#featured .row .apiDiv p {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+}
+
+#clients {
+  width: 100%;
+  background-image: url(/assets/img/testimonials_background.jpg);
+}
+#clients .container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#clients .container .row {
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#clients .container .row .txt {
+  text-align: center;
+}
+#clients .container .row .txt h1 {
+  color: #FD784F;
+}
+#clients .container .row .txt h3 {
+  color: white;
+}
+#clients .container .row .txt p {
+  color: #B0BFDA;
+}
+#clients .container .row .loremclient {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#clients .container .row .loremclient p {
+  font-size: 20px;
+  color: #B0BFDA;
+  width: 70%;
+}
+#clients .container .row .clientsprofile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#clients .container .row .clientsprofile h3 {
+  color: #FD784F;
+  font-size: 20px;
+}
+#clients .container .row .clientsprofile p {
+  font-size: 15px;
+  color: #B0BFDA;
+}
+
+#cities {
+  background-image: url(/assets/img/world.png);
+  width: 100%;
+}
+#cities .textDiv {
+  text-align: center;
+}
+#cities .textDiv h1 {
+  color: #FD784F;
+}
+#cities .textDiv h3 {
+  color: #1E2C4E;
+}
+#cities .textDiv p {
+  color: #B0BFDA;
+}
+#cities .container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#cities .container .row {
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#cities .container .row .city {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+#cities .container .row button {
+  border: none;
+  background-color: #FD784F;
+  width: 100px;
+  color: white;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #07122C;
+  color: gray;
+}
+footer p {
+  margin-top: 10px;
+}
